@@ -123,6 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="complex.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="complex.cpp" />
+    <ClCompile Include="complex_func.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
